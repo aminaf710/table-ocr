@@ -1,4 +1,6 @@
 flask==3.0.3
+gunicorn
 img2table==1.4.2
 easyocr==1.7.1
 numpy==1.26.4
+
