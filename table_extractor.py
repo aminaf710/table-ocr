@@ -1,6 +1,6 @@
 # table_extractor.py
 from img2table.document import Image
-from img2table.ocr import PaddleOCR
+from img2table.ocr import EasyOCR
 import json
 
 def process_table(filepath):
@@ -10,7 +10,7 @@ def process_table(filepath):
     """
 
     # ==== 1. بارگذاری OCR با PaddleOCR ====
-    ocr = PaddleOCR(lang="en")  # زبان انگلیسی، بدون GPU
+    ocr = EasyOCR(lang=["en"])  # زبان انگلیسی، بدون GPU
 
     # ==== 2. بارگذاری تصویر جدول ====
     doc = Image(filepath, detect_rotation=True)  # مسیر تصویر جدول
