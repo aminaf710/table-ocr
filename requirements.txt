@@ -1,2 +1,6 @@
 flask
-gunicorn
+sqlite3-bro
+img2table
+paddleocr
+paddlepaddle
+numpy
