@@ -1,6 +1,5 @@
-flask
-sqlite3-bro
-img2table
-paddleocr
-paddlepaddle
-numpy
+flask==3.0.3
+img2table==1.4.2
+paddleocr==2.9.1
+paddlepaddle==2.6.1
+numpy==1.26.4
